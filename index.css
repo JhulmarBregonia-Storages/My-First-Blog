@@ -73,6 +73,8 @@ p {
   background-color: white;
 }
 
+/* Responsive Design */
+
 @media (max-width: 800px) {
   body {
     padding: 0;
@@ -80,6 +82,11 @@ p {
 
   main {
     border: none;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .container,
@@ -97,6 +104,11 @@ p {
     border: 1px solid rgb(225, 225, 225);
   }
 
+  p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
   .container,
   .container-alt {
     padding: 40px;
@@ -110,6 +122,11 @@ p {
 
   main {
     border: 1px solid rgb(225, 225, 225);
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .container,
