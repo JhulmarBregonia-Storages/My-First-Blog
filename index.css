@@ -62,15 +62,36 @@ p {
   background-color: rgb(30, 30, 30);
 }
 
-.about {
-  text-align: center;
-  margin: 0;
+.blogMadeBy {
+  font-size: 18px;
+  font-weight: 600;
   color: rgb(35, 35, 35);
 }
 
-.about-ctn {
+.about {
+  display: flex;
+  flex-direction: column;
   padding: 50px;
   background-color: white;
+}
+
+.info-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 50px;
+  color: rgb(35, 35, 35);
+}
+
+.section {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(50, 50, 50);
 }
 
 /* Responsive Design */
